@@ -4,8 +4,10 @@ When you run JavaScript code, it creates something called an **execution context
 
 1. **Memory Allocation Phase:**
    - First, the code sets up space for variables and functions.
-   - For variables, they get initialized to `undefined` (basically saying, “I exist, but I don’t have a value yet”).
-   - For functions, the entire function is stored so it’s ready to be used later.
+   - For variables, normal functions assigned to variable and arrow functions, they get initialized to `undefined` (basically saying, “I 
+     exist, but I don’t have a value yet”).
+   - For functions(!arrow functions || !normal functions assigned to variables), the entire function is stored so it’s ready to be used 
+     later.
 
 2. **Code Execution Phase:**
    - Next, the actual code starts running. This is where:
