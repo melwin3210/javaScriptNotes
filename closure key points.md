@@ -1,6 +1,6 @@
 ### Notes on Inner Functions and Closures
 
-1. **Calling Inner Functions**: Inner functions can be invoked directly using two sets of parentheses, e.g., `()()`.
+1. **Calling Inner Functions**: Inner  functions can be invoked directly using two sets of parentheses, e.g., `()()`.
   
 2. **Passing Parameters**: Parameters can be passed to inner functions when they are returned, allowing for flexible function calls.
 
